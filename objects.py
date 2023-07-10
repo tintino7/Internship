@@ -67,5 +67,5 @@ class Phone(Item):
         return self.broken_phones * self.price
 
     def new_feature(self):
-        pass
+        return self.price
 
