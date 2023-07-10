@@ -66,3 +66,6 @@ class Phone(Item):
     def broken_phones_price(self):
         return self.broken_phones * self.price
 
+    def new_feature(self):
+        pass
+
