@@ -1,7 +1,7 @@
 import csv
 
 class Item:
-    pay_rate = 0.8 # price after 20% discount
+    pay_rate = 0.9 # price after 20% discount
     all = []
 
     def __init__(self, name: str, quantity: int, price: float):
