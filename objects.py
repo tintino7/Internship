@@ -63,4 +63,4 @@ class Phone(Item):
         return self.quantity - self.broken_phones
 
     def broken_phones(self):
-        return self.broken_phones
+        return None
